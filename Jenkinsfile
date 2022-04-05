@@ -1,7 +1,9 @@
 pipeline {
 
     agent any
-    
+    environment {
+        PASS = credentials('GIT-PASS')
+    }
     stages {
 
         stage('Build') { 
