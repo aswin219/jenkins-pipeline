@@ -6,7 +6,7 @@ echo "********************"
 
 IMAGE="maven-project"
 USER="aswinmkolathur"
-PASS="1234512345"
+PASS="aswin@219"
 
 echo "** Logging in ***"
 docker login -u $USER -p $PASS
