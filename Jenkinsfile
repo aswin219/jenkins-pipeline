@@ -1,14 +1,7 @@
 pipeline {
 
     agent any
-   
-#    environment {
-#        PASS = credentials('registry-pass') 
-#    }
-
-
-
-# in BUILD step - build a jar and building docker img using that
+    
     stages {
 
         stage('Build') { 
