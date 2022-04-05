@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Copy the new jar to the build location
-cp -f /home/qburst/JENKINS/jenkins-resources/jenkins/pipeline/java-app/target/*.jar jenkins/build/
+cp -f java-app/target/*.jar jenkins/build/
 
 echo "****************************"
 echo "** Building Docker Image ***"
